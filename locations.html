@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>SeDs</title>
+  <link rel="stylesheet" type="text/css" href="./mastheadstyle.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+  <div class="topnav">
+    <ul class>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="About.html">About Me</a></li>
+    </ul>
+    <input> <img src="./assets/images/Search.png" width="20px">
+    <a class="navright" href="Locations">Locations</a>
+    <a class="navright" href="#">Sign In   /</a>
+    <a class="navright" class= "navbotright" view cart>View Cart</a>
+    
+    <div >
+      <div id="googleMap" style="width:100%;height:400px;"></div>
+
+      <script>
+      function myMap() {
+      var mapProp= {
+        center:new google.maps.LatLng(51.508742,-0.120850),
+        zoom:5,
+      };
+      var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+      }
+      </script>
+      
+      <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>  
+    </div>
+
+    <footer>
+ 
+        <ul class="footer">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="About.html">About Us</a></li>
+        </ul>
+        </footer>  
+      </div>
+      
+      </body>
+      </html>

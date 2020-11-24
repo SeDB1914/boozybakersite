@@ -1,0 +1,128 @@
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav li, .footer li {
+    float: left;
+    border-right: 1px solid #bbb;
+  }
+ .topnav img { background-color: rgb(156, 154, 154);
+    margin-top: 22px;
+   }
+
+  a {
+    font-family: 'Proza Libre', sans-serif;
+} } 
+  input {align: center;
+
+  }
+  li:last-child {
+    border-right: none;
+  }
+  
+.navbotright { text-align: right;
+}    
+
+  li a, .navright {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+p:hover { text-shadow: 1px 2px; }
+
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  } 
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    color: #f2f2f2;
+    display: block;
+    text-align: center;
+    }
+  
+  /* Style the topnav links */
+  .topnav ul {
+    float: left;
+    padding: 14px 16px;
+    text-decoration: none;
+      }
+.navright { float: right;
+}      
+p { font-family: "Roboto Mono", monospace;
+  display: flex;
+}      
+
+  /* Change color on hover */
+  .topnav a:hover, .footer a:hover, p {
+    background-color: rgb(128, 192, 137);
+    color: black;
+  }
+  .topnav .search-container {
+    float: right;
+  }
+  .topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  } 
+  jumbotron {
+    background-color: #fff;
+    max-width: 1200px;
+    margin-left: 50px;
+  }
+  
+  .jumbotron h2 {
+    font-size: 50px;
+    margin-bottom: 70px;
+  }
+  
+  .jumbotron h2 span {
+    color:#8cc523;
+  }
+  
+  .jumbotron p {
+    text-shadow: 0 0;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 0;
+  }
+  .cards, .text{
+    background-color: rgb(128, 192, 137);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+      }
+  
+
+
+
+  .col {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 350px;
+  }
+  
+ 
+   .footer {
+    background-color: #333;
+    padding: 6px;
+  }
+  
